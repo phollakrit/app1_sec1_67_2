@@ -1,8 +1,8 @@
 import React from "react";
-import Button from "./event-class";
+import RefsFunc from "./refs-func";
 
 function App() {
-  return <Button/>
+  return <RefsFunc/>
 }
 
 export default App;
