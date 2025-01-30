@@ -1,8 +1,13 @@
 import React from "react";
-import RefsFunc from "./refs-func";
+import { userContext } from "./context";
+import Content from "./context-content";
 
 function App() {
-  return <RefsFunc/>
+  return (
+    <userContext.Provider value={'Phollakrit Wongsantisuk'}>
+      <Content/>      
+    </userContext.Provider>
+  )
 }
 
 export default App;
